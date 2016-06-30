@@ -40,6 +40,19 @@ Some interesting tasks that come with java plugin:
 
 https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/
 
+```
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.owasp:dependency-check-gradle:1.4.0'
+    }
+}
+ 
+apply plugin: 'org.owasp.dependencycheck'
+```
+
 Run the command `gradle dependencyCheck`. Check out [this](https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/index.html) to more info.
 
 **Adding exceptions to false positives**
