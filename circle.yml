@@ -1,7 +1,7 @@
 machine:
   java:
-    version: openjdk8
-timeout: 1200    
+    version: openjdk8    
 test:
   post:
     - ./gradlew dependencyCheck
+      timeout: 1200
