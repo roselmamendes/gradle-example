@@ -36,8 +36,23 @@ Some interesting tasks that come with java plugin:
 
 ### Dependencies check
 
-https://github.com/danielsomerfield/gradle-cve-dependency-check -> didn't work.
-https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/ -> trying.
+**Dependency Check for Gradle**
+
+https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/
+
+Run the command `gradle dependencyCheck`. Check out [this](https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/index.html) to more info.
+
+**Adding exceptions to false positives**
+
+You have to add in your build.gradle file the following lines:
+
+```
+dependencyCheck {
+    suppressionFile=FILE-PATH
+}
+```
+
+Where FILE-PATH is a string with the path to your xml file. More information [here](https://jeremylong.github.io/DependencyCheck/general/suppression.html).
 
 ## Helpful links
 
