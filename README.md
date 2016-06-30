@@ -31,3 +31,16 @@ Some interesting tasks that come with java plugin:
 - **assemble**: just build the project (create a build folder with a jar file, .class files, etc) but it doesn't run tests;
 - **build**: build and test the project;
 - **test**: run tests.
+
+## Security checks
+
+### Dependencies check
+
+https://github.com/danielsomerfield/gradle-cve-dependency-check -> didn't work.
+https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/ -> trying.
+
+## Helpful links
+
+https://docs.gradle.org/current/userguide/organizing_build_logic.html
+
+https://www.owasp.org/index.php/OWASP_Dependency_Check
