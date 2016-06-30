@@ -24,6 +24,8 @@ src
 
 After to proceed with a clone, inside of the project's folder run `gradle test`.
 
+To run the project use `java -jar build/libs/gradle-example.jar`.
+
 Some interesting tasks that come with java plugin:
 
 - **assemble**: just build the project (create a build folder with a jar file, .class files, etc) but it doesn't run tests;
