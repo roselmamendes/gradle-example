@@ -25,3 +25,7 @@ jar {
         attributes 'Main-Class': 'net.example.HelloWorld'
     }
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.14'
+}
