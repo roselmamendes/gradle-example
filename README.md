@@ -1,6 +1,6 @@
 # Gradle Example
 
-Create in order to learn a bit about Gradle and add security dependencies check.
+Project created in order to learn a bit about Gradle and add security dependencies check.
 
 This project was created following this [tutorial](http://www.petrikainulainen.net/getting-started-with-gradle/) with some modifications due to out-of-date informations. So check this [link](https://docs.gradle.org/current/userguide/java_plugin.html#sec:java_plugin_and_dependency_management) as well.
 
@@ -22,7 +22,7 @@ src
     test
         java
 
-After proceed with a clone, inside of the project's folder run `gradle test`.
+After to proceed with a clone, inside of the project's folder run `gradle test`.
 
 Some interesting tasks that come with java plugin:
 
