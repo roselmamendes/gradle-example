@@ -83,7 +83,7 @@ Circle CI:
 
 - No work with Java 7, but Java 8;
 
-- You need to use a [gradlew](https://docs.gradle.org/current/userguide/gradle_wrapper.html) that guarantee at least a version equal or more than 2.0.
+- You need to use a [gradlew](https://docs.gradle.org/current/userguide/gradle_wrapper.html) and to guarantee at least a version equal or more than 2.0.
 
 ## Helpful links
 
