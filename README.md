@@ -67,6 +67,24 @@ dependencyCheck {
 
 Where FILE-PATH is a string with the path to your xml file. More information [here](https://jeremylong.github.io/DependencyCheck/general/suppression.html).
 
+**CI/CD tools**
+
+Snap CI
+
+Travis CI:
+
+- No work with Java 7, but Java 8;
+
+- Added the step for dependencyCheck at after_success step;
+
+- Travis kill the command due to out of memory.
+
+Circle CI:
+
+- No work with Java 7, but Java 8;
+
+- You need to use a [gradlew](https://docs.gradle.org/current/userguide/gradle_wrapper.html) that guarantee at least a version equal or more than 2.0.
+
 ## Helpful links
 
 https://docs.gradle.org/current/userguide/organizing_build_logic.html
