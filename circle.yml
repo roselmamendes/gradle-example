@@ -4,4 +4,4 @@ machine:
 test:
   post:
     - ./gradlew dependencyCheck
-      timeout: 1200
+        timeout: 1200
